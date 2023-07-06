@@ -24,7 +24,6 @@ function Home() {
           ></Service>)
         }
       </div>
-
     </div>
   )
 }

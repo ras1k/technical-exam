@@ -1,9 +1,8 @@
-import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 
 const Service = ({ service }) => {
     return (
-        <div className=''>
+        <div>
             <div className='flex h-full md:justify-start justify-center'>
                 <img src={service.logo} className='w-4/6 md:w-4/6 lg:w-4/6' alt="" />
             </div>
@@ -16,7 +15,6 @@ const Service = ({ service }) => {
                     <p className='text-blue-400 me-2'>Learn More</p>
                     <span className='text-blue-400 '><FaArrowRight /></span>
                 </div>
-
             </div>
         </div>
     );
